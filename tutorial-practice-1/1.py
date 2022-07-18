@@ -40,8 +40,8 @@ print(intercept)
 print(slope)
 
 #mean squared error
-mse = mean_squared_error(y, intercept + slope*x, squared = False)
-print(mse)
+rmse = mean_squared_error(y, intercept + slope*x, squared = False)
+print(rmse)
 
 #box plot
 plt.boxplot(x)
